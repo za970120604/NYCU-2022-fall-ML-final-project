@@ -76,6 +76,11 @@ The performance will not be the same as I mentioned because scikit-learn and kea
 
 Probably you are luckier than me to find a better performance model weight !
 
+
+The model weight for logistic regression: [Here](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/blob/main/ML%20final%20project/Logistic%20Regression%20model%20weight/logistic.joblib)
+
+The model weight for NN : [Here](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/blob/main/ML%20final%20project/Neural%20Network%20model%20weight/NN.h5)
+
 # Pre-trained Models
 The logistic regression-based model and the neural network-based model do not contain any pretrained model , i.e. these models are hand-crafted from scartch by myself.
 
