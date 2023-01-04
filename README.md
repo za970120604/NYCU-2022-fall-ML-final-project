@@ -23,14 +23,14 @@ To reproduce the result in the notebook , please download the following package 
 
 I propose two models for solving this problem , one is based on logistic regression , which have a higher score ; the other one is based on neural network .
 
-To train my logistic regression based model , please clone the [outer most folder](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/tree/main/ML%20final%20project) , find the file named [train_logistic.ipynb] , and simply click run all . 
+To train my logistic regression based model , please clone the [outer most folder](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/tree/main/ML%20final%20project) , find the file named [train_logistic.ipynb](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/blob/main/ML%20final%20project/train_logistic.ipynb) , and simply click run all . 
 
-To train my neural network based model , please clone the [outer most folder](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/tree/main/ML%20final%20project) , find the file named [train_NN.ipynb] , and simply click run all .
+To train my neural network based model , please clone the [outer most folder](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/tree/main/ML%20final%20project) , find the file named [train_NN.ipynb](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/blob/main/ML%20final%20project/train_NN.ipynb) , and simply click run all .
 
-The final model weight will be generated in the same directory as [train_logistic.ipynb] and [train_NN.ipynb] successfully if just clone the [outer most folder](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/tree/main/ML%20final%20project) and do what I mentioned above . The model weight file name will be train_logistic.joblib and train_NN.h5 . 
+The final model weight will be generated in the same directory as [train_logistic.ipynb](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/blob/main/ML%20final%20project/train_logistic.ipynb) and [train_NN.ipynb](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/blob/main/ML%20final%20project/train_NN.ipynb) successfully if just clone the [outer most folder](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/tree/main/ML%20final%20project) and do what I mentioned above . The model weight file name will be train_logistic.joblib and train_NN.h5 . 
 
 
-If you do not want to clone the [outer most folder](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/tree/main/ML%20final%20project) , then please change 2 path in both [train_logistic.ipynb] and [train_NN.ipynb] : 
+If you do not want to clone the [outer most folder](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/tree/main/ML%20final%20project) , then please change 2 path in both [train_logistic.ipynb](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/blob/main/ML%20final%20project/train_logistic.ipynb) and [train_NN.ipynb](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/blob/main/ML%20final%20project/train_NN.ipynb) : 
 
 1. The first line in second block : 
 
@@ -44,15 +44,15 @@ If you do not want to clone the [outer most folder](https://github.com/za9701206
 
 
 # Evaluation
-To evaluate my logistic regression based model , please clone the [outer most folder](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/tree/main/ML%20final%20project) , find the file named [eval_logistic.ipynb] , and simply click run all . 
+To evaluate my logistic regression based model , please clone the [outer most folder](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/tree/main/ML%20final%20project) , find the file named [eval_logistic.ipynb](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/blob/main/ML%20final%20project/eval_logistic.ipynb) , and simply click run all . 
 
-To evaluate my neural network based model , please clone the [outer most folder](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/tree/main/ML%20final%20project) , find the file named [eval_NN.ipynb] , and simply click run all .
-
-
-The final prediction on [test data] will be generated in the same directory as [eval_logistic.ipynb] and [eval_NN.ipynb] successfully if just clone the [outer most folder](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/tree/main/ML%20final%20project) and do what I mentioned above . The csv file name will be Logistic_eval.csv and NN_eval.csv . 
+To evaluate my neural network based model , please clone the [outer most folder](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/tree/main/ML%20final%20project) , find the file named [eval_NN.ipynb](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/blob/main/ML%20final%20project/eval_NN.ipynb) , and simply click run all .
 
 
-If you do not want to clone the [outer most folder](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/tree/main/ML%20final%20project) , then please change 3 + 1 path in both [eval_logistic.ipynb] and [eval_NN.ipynb] : 
+The final prediction on [test data] will be generated in the same directory as [eval_logistic.ipynb](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/blob/main/ML%20final%20project/eval_logistic.ipynb) and [eval_NN.ipynb](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/blob/main/ML%20final%20project/eval_NN.ipynb) successfully if just clone the [outer most folder](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/tree/main/ML%20final%20project) and do what I mentioned above . The csv file name will be Logistic_eval.csv and NN_eval.csv . 
+
+
+If you do not want to clone the [outer most folder](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/tree/main/ML%20final%20project) , then please change 3 + 1 path in both [eval_logistic.ipynb](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/blob/main/ML%20final%20project/eval_logistic.ipynb) and [eval_NN.ipynb](https://github.com/za970120604/NYCU-2022-fall-ML-final-project/blob/main/ML%20final%20project/eval_NN.ipynb) : 
 
 1. The first line in second block : 
 
