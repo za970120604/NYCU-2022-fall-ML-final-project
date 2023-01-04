@@ -35,7 +35,8 @@ tqdm                4.64.1
 To evaluate my model on ImageNet, run:
 
 # Pre-trained Models
-
+The logistic regression-based model and the neural network-based model do not contain any pretrained model , i.e. these models are hand-crafted from scartch by myself.
 
 # Results
-Our model achieves the following performance on :
+Our model achieves the following performance:
+
