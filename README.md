@@ -38,9 +38,8 @@ To evaluate my model on ImageNet, run:
 The logistic regression-based model and the neural network-based model do not contain any pretrained model , i.e. these models are hand-crafted from scartch by myself.
 
 # Results
-Our model achieves the following performance:
-| Model name                  | Top 1 Accuracy  |
-| ----------------------------|---------------- |
-| logistic regression model   |    59.155%      |
-| ----------------------------|---------------- |
-| neural network model        |    58.833%      |
+Our model achieves the following performance on Kaggle platform:
+| Model name                  |  Top 1 Private Score |
+| ----------------------------|----------------------|
+| logistic regression model   |       59.155%        |
+| neural network model        |       58.833%        |
