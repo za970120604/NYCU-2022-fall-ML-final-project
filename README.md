@@ -24,6 +24,7 @@ To reproduce the result in the notebook , please download the following package 
 I propose two models for solving this problem , one is based on logistic regression , which have a higher score ; the other one is based on neural network .
 
 To train my logistic regression based model , please clone the [outer most folder] , find the file named [train_logistic.ipynb] , and simply click run all . 
+
 To train my neural network based model , please clone the [outer most folder] , find the file named [train_NN.ipynb] , and simply click run all .
 
 The final model weight will be generated in the same directory as [train_logistic.ipynb] and [train_NN.ipynb] successfully if just clone the [outer most folder] and do what I mentioned above . The model weight file name will be train_logistic.joblib and train_NN.h5 . 
@@ -44,6 +45,7 @@ If you do not want to clone the [outer most folder] , then please change 2 path 
 
 # Evaluation
 To evaluate my logistic regression based model , please clone the [outer most folder] , find the file named [eval_logistic.ipynb] , and simply click run all . 
+
 To evaluate my neural network based model , please clone the [outer most folder] , find the file named [eval_NN.ipynb] , and simply click run all .
 
 
@@ -68,6 +70,11 @@ If you do not want to clone the [outer most folder] , then please change 3 + 1 p
 
 4. For the NN model , The third to last line in last block : 
 >df_subb = pd.read_csv('tabular-playground/sample_submission.csv') ==> df_subb = pd.read_csv('your/path/to/sample_submission.csv')
+
+Also if you want to try your own trained model weight , please make sure you modify all the required path.
+The performance will not be the same as I mentioned because scikit-learn and kears NN models random initialized their weights , but you can find that logistic regression model always pass the baseline(0.58990 private score) and NN model always suffer from 0.58XXX but cannot pass the baseline.
+
+Probably you are luckier than me to find a better performance model weight !
 
 # Pre-trained Models
 The logistic regression-based model and the neural network-based model do not contain any pretrained model , i.e. these models are hand-crafted from scartch by myself.
