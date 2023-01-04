@@ -21,6 +21,25 @@ To reproduce the result in the notebook , please download the following package 
 
 # Training
 
+I propose two models for solving this problem , one is based on logistic regression , which have a higher score ; the other one is based on neural network .
+
+To train my logistic regression based model , please clone the [outer most folder] , find the file named [train_logistic.ipynb] , and simply click run all . 
+To train my neural network based model , please clone the [outer most folder] , find the file named [train_NN.ipynb] , and simply click run all .
+
+The final model weight will be generated in the same directory as [train_logistic.ipynb] and [train_NN.ipynb] successfully if just clone the [outer most folder] and do what I mentioned above . The model weight file name will be train_logistic.joblib and train_NN.h5 . 
+
+
+If you do not want to clone the [outer most folder] , then please change 2 path in both [train_logistic.ipynb] and [train_NN.ipynb] : 
+
+1. The first line in second block : 
+
+>df = pd.read_csv('tabular-playground/train.csv') ==> df = pd.read_csv('your/path/to/training/data')
+
+2. The last line in last block : 
+
+> joblib.dump(model , "train_logistic.joblib") ==>  joblib.dump(model , 'where/you/want/to/store/logistic/model weight')
+
+> model.save('train_NN.h5') ==>  model.save('where/you/want/to/store/NN/model weight')
 
 
 # Evaluation
@@ -31,7 +50,7 @@ To evaluate my neural network based model , please clone the [outer most folder]
 The final prediction on [test data] will be generated in the same directory as [eval_logistic.ipynb] and [eval_NN.ipynb] successfully if just clone the [outer most folder] and do what I mentioned above . The csv file name will be Logistic_eval.csv and NN_eval.csv . 
 
 
-If you do not want to clone the [outer most folder] , then please change 3 path in both [eval_logistic.ipynb] and [eval_NN.ipynb] : 
+If you do not want to clone the [outer most folder] , then please change 3 + 1 path in both [eval_logistic.ipynb] and [eval_NN.ipynb] : 
 
 1. The first line in second block : 
 
@@ -41,11 +60,14 @@ If you do not want to clone the [outer most folder] , then please change 3 path 
 
 >model = joblib.load('Logistic Regression model weight/logistic.joblib') ==> model = joblib.load('your/path/to/logistic.joblib')
 
->model = tf.keras.models.load_model('Neural Network model weight/NN.h5') ==> model = tf.keras.models.load_model(your/path/to/NN.h5')
+>model = tf.keras.models.load_model('Neural Network model weight/NN.h5') ==> model = tf.keras.models.load_model('your/path/to/NN.h5')
 
 3. The 7th line in last block : 
 
 >test_df = pd.read_csv('tabular-playground/test.csv') ==> test_df = pd.read_csv('your/path/to/testing/data')
+
+4. For the NN model , The third to last line in last block : 
+>df_subb = pd.read_csv('tabular-playground/sample_submission.csv') ==> df_subb = pd.read_csv('your/path/to/sample_submission.csv')
 
 # Pre-trained Models
 The logistic regression-based model and the neural network-based model do not contain any pretrained model , i.e. these models are hand-crafted from scartch by myself.
