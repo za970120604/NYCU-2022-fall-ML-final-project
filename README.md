@@ -39,6 +39,8 @@ The logistic regression-based model and the neural network-based model do not co
 
 # Results
 Our model achieves the following performance:
-| Model name         | Top 1 Accuracy  | Top 5 Accuracy |
-| ------------------ |---------------- | -------------- |
-| My awesome model   |     85%         |      95%       |
+| Model name                  | Top 1 Accuracy  |
+| ----------------------------|---------------- |
+| logistic regression model   |    59.155%      |
+| ----------------------------|---------------- |
+|                             |                 |
