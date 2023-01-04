@@ -43,4 +43,4 @@ Our model achieves the following performance:
 | ----------------------------|---------------- |
 | logistic regression model   |    59.155%      |
 | ----------------------------|---------------- |
-|                             |                 |
+| neural network model        |    58.833%      |
