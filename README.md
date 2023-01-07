@@ -5,7 +5,13 @@ competition link : https://www.kaggle.com/competitions/tabular-playground-series
 
 # Requirements
 
-To reproduce the result in the notebook , please download the following package with its version : 
+First thing first , you need to setup an environment to run .ipynb file , I suggest using vscode with jupyter notebook package.
+
+Link and related tutorial : [Here](https://code.visualstudio.com/docs/datascience/jupyter-notebooks)
+
+And after you download this package and open the code using this package in vscode , you can simply "run all cell" to reproduce the result.
+
+Also to reproduce the result in the notebook , please download the following package with its version : 
 | Package Name                |      Version         |
 | ----------------------------|----------------------|
 | joblib   |      1.2.0         |
